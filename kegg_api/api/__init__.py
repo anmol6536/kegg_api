@@ -1,0 +1,1 @@
+from kegg_api.api.connect import KeggAPI
