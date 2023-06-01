@@ -4,10 +4,10 @@ import networkx as nx
 from dataclasses import dataclass, field
 from tqdm import tqdm
 
-from kegg_api.api import KeggAPI
-from kegg_api.utils.shapes import Rectangle, Circle, Line
-from kegg_api.utils.extract import extract_ko, extract_reaction, extract_compound
-from kegg_api.api.base_features import Reaction
+from kegg.api import KeggAPI
+from kegg.utils.shapes import Rectangle, Circle, Line
+from kegg.utils.extract import extract_ko, extract_reaction, extract_compound
+from kegg.api.base_features import Reaction
 
 
 def get_ko_from_pathway(pathway) -> list[str]:

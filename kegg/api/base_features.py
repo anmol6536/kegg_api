@@ -1,5 +1,5 @@
 import re
-from kegg_api.api import KeggAPI
+from kegg.api import KeggAPI
 from abc import ABC
 from dataclasses import dataclass, field
 
