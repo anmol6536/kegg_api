@@ -12,5 +12,5 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url='https://github.com/',  # github repository URL
     license='MIT',  # license type
-    install_requires=['requests']
+    install_requires=['requests', 'matplotlib', 'networkx', 'tqdm']
 )
